@@ -10,7 +10,7 @@ const provider = new HDWalletProvider(
   // incorporate your seed testing here, each word separated by space 
   "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12",
   
-  // enlace a red conectar
+  // enlace a red conectar with INFURA
   "https://rinkeby.infura.io/v3/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // walletProvider access Rinkeby
 );
 const web3 = new Web3(provider); // utiliza provider y genera constructor web3 para red rinkeby
