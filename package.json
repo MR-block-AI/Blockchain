@@ -1,0 +1,31 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.1.7",
+    "@openzeppelin/contracts": "^4.1.0",
+    "extra": "^0.2.1",
+    "fs": "0.0.1-security",
+    "ganache-cli": "^6.12.2",
+    "install": "^0.13.0",
+    "mocha": "^6.2.3",
+    "nan": "^2.13.2",
+    "node-gyp": "^4.0.0",
+    "npm": "^7.11.2",
+    "rebuild": "^0.1.2",
+    "save": "^2.3.3",
+    "solc": "^0.6.6",
+    "truffle-hdwallet-provider": "0.0.4",
+    "web3": "^1.0.0-beta.37"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
