@@ -1,2 +1,2 @@
 # Blockchain
-Proyecto Lottery
+Proyecto Loteria o Rifa
