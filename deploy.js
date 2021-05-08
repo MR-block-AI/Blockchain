@@ -8,10 +8,10 @@ const { interface, bytecode } = require("./compile"); // New version Solc 0.5.0
 const provider = new HDWalletProvider(
   // nemotecnic wallet ether
   // incorporate your seed testing here, each word separated by space 
-  //"word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12",
-  "slight club stone young stone train pair inner spend entry mad method",
+  "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12",
+  
   // enlace a red conectar
-  "https://rinkeby.infura.io/v3/0185d5f0392545a581229373105317c6" // walletProvider access Rinkeby
+  "https://rinkeby.infura.io/v3/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" // walletProvider access Rinkeby
 );
 const web3 = new Web3(provider); // utiliza provider y genera constructor web3 para red rinkeby
 
